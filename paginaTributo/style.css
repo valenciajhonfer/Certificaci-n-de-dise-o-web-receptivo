@@ -1,0 +1,49 @@
+#main {
+    background-color: rgb(172, 161, 161);
+  }
+  #title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+  }
+  #img-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(190, 185, 185);
+  }
+  #image {
+    max-width: 75%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 130px;
+  }
+  #img-caption {
+    width: 900px;
+    position: absolute;
+    margin-top: 720px;
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  #tribute-info {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #tribute-info li {
+    margin: 12px;
+  }
+  
+  #link {
+    font-size: 19px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #tribute-link {
+    font-size: 19px;
+    font-family: cursive;
+  }

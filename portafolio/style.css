@@ -1,0 +1,192 @@
+#navbar {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: right;
+  }
+  #navbar ul {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+  }
+  #navbar ul li {
+    float: left;
+  }
+  #navbar ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #008066;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding: 22px;
+    padding-top: 31px;
+  }
+  /* navbar */
+  
+  /* Bienvenida */
+  #welcome-section {
+    height: 100vh;
+    width: 101.4%;
+    background-color: #fdb927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+  }
+  #welcome-section h1 {
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    margin-left: 10%;
+  }
+  
+  /* Bienvenida */
+  
+  /* proyectos */
+  
+  #projects {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #project_title h1 {
+    color: black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .card_project {
+    box-shadow: 4px 4px 4px 2px rgb(104, 103, 103);
+    height: 434px;
+  }
+  
+  #projects a {
+    text-decoration: none;
+    height: max-content;
+  }
+  
+  .project-image {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 800px) {
+    .project-image {
+      width: 150px;
+      height: 190px;
+    }
+  }
+  
+  .project-tile {
+    background-color: #008066;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-tile:hover {
+    background-color: #fdb927;
+  }
+  
+  /* proyectos */
+  
+  /* boton mas  */
+  #boton {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #boton a {
+    background-color: #008066;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+  }
+  
+  /* boton mas  */
+  
+  #boton a:hover {
+    background-color: #fdb927;
+  }
+  
+  /*redes*/
+  .fab {
+    width: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .social {
+    left: -40px;
+    top: 250px;
+  }
+  .social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .social a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    z-index: 0;
+    transition: 0.1s ease;
+  }
+  .fa-facebook-f {
+    background: #3b5998;
+  }
+  
+  .fa-facebook-messenger {
+    background: #0084ff;
+  }
+  .fa-whatsapp {
+    background: #25d366;
+  }
+  .fa-github {
+    background: #c9510c;
+  }
+  
+  .social a:hover {
+    padding-bottom: 15px;
+  }
+  
+  #footer {
+    margin-top: 50px;
+    width: 101.4%;
+    background-color: #2e2d2c;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: -10px;
+  }
+  #footer h1 {
+    position: absolute;
+    margin-bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+  }
